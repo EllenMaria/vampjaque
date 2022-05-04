@@ -1,0 +1,29 @@
+
+
+body {
+
+    background-image: url(../Assets/carmilla-wallpapper.jpg);
+
+}
+
+#conteiner {
+
+    background-color: rgba(95, 0, 160, 0.5); 
+    border: 8px solid #5F00A0;
+  
+}
+
+
+
+@font-face {
+            font-family: 'creepy';
+            src: url('Creepy Blood.otf') formart('opentype');
+        }
+
+
+h1{
+    font-family: 'creepy';
+    color: darkviolet;
+ text-shadow: 5px 5px 4px black;
+
+}

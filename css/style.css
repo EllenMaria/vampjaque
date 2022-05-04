@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    min-height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+body {
+    height: 100vh;
+    background-image: url(../Assets/fundo_cemiterio1.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#conteiner {
+    width: 50vw;
+    min-height: 100vh;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.7); 
+    border: 8px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Tapestry', cursive;
+    color: darkred;
+    text-transform: uppercase;
+    font-size: 50px;
+ transition:all 3s ease-in-out;
+	-webkit-transition:all 3s ease-in-out;
+	-moz-transition:all 3s ease-in-out;
+  -o-transition:all 15s ease-in-out;
+}
+
+h1:hover {
+     text-shadow:
+       4px 4px 1px #300000,
+       4px 6px 1px #400000,
+       4px 8px 1px #500000,
+       4px 10px 1px #600000,
+       4px 12px 1px #700000,
+       4px 14px 1px #800000,
+       4px 16px 1px #900000,
+       4px 18px 1px #A00000,
+       4px 20px 1px #B00000,
+       4px 22px 1px #C00000,
+       4px 24px 1px #D00000,
+       4px 26px 1px #E00000,
+       4px 28px 1px #F00000,
+       4px 30px 1px #FA0000,
+       4px 32px 1px #FB0000,
+       4px 34px 1px #FC0000,
+       4px 36px 1px #FD0000,
+       4px 38px 1px #FE0000,
+       4px 40px 2px #FF0000;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main p {
+    color: white;
+    font-family: 'Tapestry', cursive;
+    font-size: 20px;
+    font-weight: 100;
+    width:85%;
+    margin: auto;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+figure label {
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+
+
+main h2{
+    font-family: 'Tapestry', cursive;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    margin: 2% auto 10% auto;
+}
+
+#personagens {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    
+}
+
+#personagens figure {
+    width: 100%;
+    padding: 0;
+    margin:auto;
+}
+
+#personagens figure img{
+      width: 100%;
+      object-fit: contain;
+    min-height: 194.93;
+    max-height: 194.93;
+webkit-transition: all 0.7s ease;
+ transition: all 0.7s ease;
+}
+
+#personagens figure img:hover {
+ -webkit-transform: scale(1.1);
+    transform: scale(1.2);}
+
+
+@media screen and (max-width: 800px)
+{
+#conteiner 
+    {
+        width: 98%;
+    }
+
+main p {
+ font-size: 18px;   
+    }
+
+main h2 {
+font-size: 25px;        
+    }
+    
+#personagens
+    {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+#personagens figure 
+    {
+        text-align: center;
+    }
+#personagens figure img
+    {
+      height: 40%;
+      object-fit: contain;
+        
+    }

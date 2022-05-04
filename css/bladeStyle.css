@@ -1,0 +1,30 @@
+
+body {
+
+    background-image: url(../Assets/blade-vampire-wallpaper.jpg);
+  
+}
+
+#conteiner {
+ 
+     background-color: rgba(0, 60, 0, 0.6); 
+    border: 8px solid #003200;
+}
+
+
+
+@font-face {
+            font-family: 'creepy';
+            src: url('Creepy Blood.otf') formart('opentype');
+        }
+
+
+h1{
+    color: darkgreen;
+    text-shadow: 5px 5px 4px black;
+
+}
+
+
+
+
